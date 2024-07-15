@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ margin-top: 40px;
+ text-align: center;
+}
+.underline{
+    color: blue;
+    font-weight: 500;
+    opacity: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.review{
+    
+    text-align: center;
+   
+    border: 5px solid whitesmoke;
+}
+
+#author{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#jobs{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightskyblue;
+}
+#info{
+    font-family:  sans-serif;
+    text-indent: 30px;
+    text-align: center;
+}
+
+.button-container{
+    padding: 15px;
+    opacity: 100px ;
+}
+.prev-btn{
+    color: lightskyblue;
+    padding: 4px;
+    border: 2px solid white;
+    margin: 4px;
+    background-color: white;
+}
+.next-btn{
+    color: lightskyblue;
+    padding: 4px;
+    border: 2px solid white;
+    margin: 4px;
+    background-color: white;
+}
+.random-btn{
+    border-radius: 4px;
+    background-color: white;
+    color: lightskyblue;
+    padding: 5px;
+    border: 2px solid lightblue;
+    margin: 2px;
+}
